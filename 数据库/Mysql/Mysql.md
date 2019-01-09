@@ -1,5 +1,14 @@
 # Mysql
 
+## Mysql常见命令
+
+| 功能                           | 命令                                    |
+| ------------------------------ | --------------------------------------- |
+| 查询Mysql当前连接数            | show status like 'Threads%'             |
+| 查询数据库当前设置的最大连接数 | show variables like '%max_connections%' |
+
+----
+
 ## 创建和操纵表
 
 ### 删除表
@@ -133,6 +142,7 @@ SHOW VARIABLES LIKE "%partition%"
   $$
   2*3=6
   $$
+
 
 
 
