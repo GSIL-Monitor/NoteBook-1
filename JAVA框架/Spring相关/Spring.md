@@ -116,8 +116,8 @@ public class SchoolTest {
 
 ------
 
-# SprinvMVC
+# SpringMVC
 
-- SpringMVC常用注解：   
+- SprinMVC常用注解：   
   @RequestMapping(value=" ", method=" ")
 
