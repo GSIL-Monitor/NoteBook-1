@@ -8,10 +8,16 @@
 | 查询数据库当前设置的最大连接数 | show variables like '%max_connections%' |
 
 ----
-
-## 创建和操纵表
-
-### 删除表
+## 插入数据
+### 数据插入
+#### 插入完整的行
+#### 插入部分行
+#### 插入检索出的数据
+INSERT SELECT
+INSERT SELECT语句可以用一条INSERT插入多行，不管SELECT语句返回多少行，都将被INSERT插入 
+### 从一个表复制到另一个表
+CREATE TABLE ... AS SELECT ... FROM ...
+## 删除表
 
 ```mysql
 DROP TABLE tablename;
